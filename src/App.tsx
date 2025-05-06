@@ -18,9 +18,7 @@ function App() {
           <h1>/usr/bin/webfetch</h1>
         </div>
         <div className='bg-[#181818] rounded-b-xl flex flex-col p-10'>
-          <h1>/&gt; echo test</h1>
-          <h1>test</h1>
-          <h1>/&gt; webfetch</h1>
+          <h1><span className='text-blue-400'>$ [~]&gt;</span> webfetch</h1>
           <div className='flex flex-row flex-wrap'>
             <p className='text-lime-500'>
               <br />
@@ -54,6 +52,7 @@ function App() {
               <span className='text-rose-600'>Timezone: </span>{Intl.DateTimeFormat().resolvedOptions().timeZone}                              <br /> 
               <span className='text-rose-600'>Touch Screen: </span>{('ontouchstart' in window || navigator.maxTouchPoints > 0) ? 'Yes' : 'No'} <br />
               <span className='text-rose-600'>IP Address: </span>{ip}                                                                          <br />
+              <span className='text-rose-600'>Kawaii: </span><span className='text-pink-400'>Yes :3</span>
             </p>
           </div>
           
