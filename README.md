@@ -9,4 +9,4 @@ WebFetch is a neofetch clone for web browsers (or smth like that)
 
 ## Why would I ever need this?
 
-I have absolutely no clue, it's up to you to decide 
+I have absolutely no clue, it's up to you to decide

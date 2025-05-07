@@ -43,7 +43,7 @@ function App() {
             <p className='text-white'>
               <br />
               <span className='text-rose-600'>root</span>@<span className='text-rose-600'>{ip}</span>                                          <br /> 
-              -------------                                                                                                                    <br />
+              <span>{"-".repeat(`root@${ip}`.length)}</span>                                                                                                                    <br />
               <span className='text-rose-600'>OS: </span>{platform.os?.toString()}                                                             <br />
               <span className='text-rose-600'>Browser: </span>{platform.name}                                                                  <br />
               <span className='text-rose-600'>Version: </span>{platform.version}                                                               <br />
